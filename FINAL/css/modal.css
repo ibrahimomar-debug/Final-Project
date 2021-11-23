@@ -1,0 +1,68 @@
+/* CSS for modal container and content */
+.modal-container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.modal-content{
+    width: 800px;
+    height: 500px;
+    background-color: #f2f2f2;
+    margin-left: 22%;
+    position: relative;
+}
+
+.modal-pop{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-close{
+    position: absolute;
+    transform: rotate(45deg);
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+}
+/* End of modal container and modal content */
+
+/* CSS for input file and image preview */
+.imagePreview{
+    width: 260px;
+    min-height: 200px;
+    max-height: 200px;
+    position: relative;
+    border: 2px solid #dddddd;
+    margin-top: 55px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.image-preview{
+    display: none;
+    max-width: 100%;
+    height: 196px;
+}
+
+.input-file{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* End of input file and image preview */
