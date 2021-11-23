@@ -44,15 +44,10 @@
     <div class="page-wrapper">
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
-            <div class="logo">
-                <a href="#">
-                    <img src="images/icon/logo-white.png" alt="Cool Admin" />
-                </a>
-            </div>
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-140">
-                        <img src="images/icon/SK1.png"  />
+                        <img src="images/icon/brgy.png"/>
                     </div>
 
                 </div>

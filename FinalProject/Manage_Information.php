@@ -34,27 +34,20 @@
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
 
-     
-
 </head>
 
 <body class="animsition">
     <div class="page-wrapper">
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar2">
-            <div class="logo">
-                <a href="#">
-                    <img src="images/icon/logo-white.png" alt="Cool Admin" />
-                </a>
-            </div>
+            
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-140">
-                        <img src="images/icon/SK1.png" />
+                        <img src="images/icon/brgy.png" />
                     </div>
 
                 </div>
-
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
@@ -133,11 +126,6 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap2">
-                            <div class="logo d-block d-lg-none">
-                                <a href="#">
-                                    <img src="images/icon/logo-white.png" alt="CoolAdmin" />
-                                </a>
-                            </div>
                             <div class="header-button2">
                           
                              <!--BAR-->
@@ -170,15 +158,11 @@
             </header>
 
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
-                <div class="logo">
-                    <a href="#">
-                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
-                    </a>
-                </div>
+                <div class="logo"></div>
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="images/icon/SK1.png" alt="John Doe" />
+                            <img src="images/icon/brgy.png" alt="John Doe" />
                         </div>
                     </div>
 
